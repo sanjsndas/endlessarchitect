@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Endless Architectural Ideas</title>
+  <meta name="description" content="Get in touch with the editorial team at Endless Architectural Ideas. Inquiries about submissions, syndication, and editorial partnerships.">
+  <meta name="author" content="Endless Architectural Ideas Editorial">
+  <link rel="canonical" href="https://www.endlessarchitecturalideas.com/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact | Endless Architectural Ideas">
+  <meta property="og:description" content="Get in touch with the editorial team at Endless Architectural Ideas. Inquiries about submissions, syndication, and editorial partnerships.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.endlessarchitecturalideas.com/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact Endless Architectural Ideas",
+    "description": "Contact the editorial team at Endless Architectural Ideas.",
+    "url": "https://www.endlessarchitecturalideas.com/contact.html",
+    "author": {
+      "@type": "Organization",
+      "name": "Endless Architectural Ideas Editorial"
+    }
+  }
+  </script>
+  <style>
+    /* ----- RESET & BASE ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+      background-color: #faf9f7;
+      color: #1e1e1e;
+      line-height: 1.6;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+    }
+    /* editorial serif for headings */
+    h1, h2, h3, h4, .serif {
+      font-family: 'Georgia', 'Times New Roman', 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+    }
+    h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    h2 {
+      font-size: 2rem;
+      line-height: 1.3;
+      margin-bottom: 1rem;
+      font-weight: 500;
+    }
+    h3 {
+      font-size: 1.4rem;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+    }
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s ease, border-color 0.2s ease;
+    }
+    a:hover {
+      color: #9b6b43;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+    }
+    .container {
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    /* ----- UTILITY ----- */
+    .text-small {
+      font-size: 0.85rem;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: #6b6b6b;
+    }
+    .category-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #9b6b43;
+      border-bottom: 1px solid #e0d6cc;
+      padding-bottom: 2px;
+    }
+    .reading-time {
+      font-size: 0.75rem;
+      color: #6b6b6b;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+    .meta-row {
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 0.75rem 0;
+    }
+    .section-padding {
+      padding: 4rem 0;
+    }
+    .section-padding-sm {
+      padding: 2.5rem 0;
+    }
+
+    /* ----- HEADER / NAVIGATION ----- */
+    .site-header {
+      background-color: #faf9f7;
+      border-bottom: 1px solid #eae6e0;
+      padding: 1.5rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      backdrop-filter: blur(8px);
+      background-color: rgba(250, 249, 247, 0.92);
+    }
+    .header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+    }
+    .logo a {
+      font-family: 'Georgia', serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: #1e1e1e;
+      line-height: 1.1;
+    }
+    .logo .logo-sub {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: #9b6b43;
+      margin-top: 2px;
+    }
+    .main-nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .main-nav a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      border-bottom: 1px solid transparent;
+      padding-bottom: 4px;
+    }
+    .main-nav a:hover,
+    .main-nav a.active {
+      border-bottom-color: #9b6b43;
+      color: #9b6b43;
+    }
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .search-toggle {
+      background: none;
+      border: none;
+      font-size: 1.2rem;
+      cursor: pointer;
+      color: #2c2c2c;
+      padding: 4px;
+    }
+    .search-bar {
+      display: none;
+      width: 100%;
+      padding: 1rem 0;
+      border-top: 1px solid #eae6e0;
+      margin-top: 1rem;
+    }
+    .search-bar.active {
+      display: block;
+    }
+    .search-bar input {
+      width: 100%;
+      padding: 0.9rem 1rem;
+      font-size: 1rem;
+      border: 1px solid #d6cec4;
+      background: #fff;
+      border-radius: 4px;
+      font-family: 'Inter', sans-serif;
+    }
+    .search-bar input:focus {
+      outline: 2px solid #9b6b43;
+      border-color: transparent;
+    }
+
+    /* ----- CONTACT PAGE SPECIFIC ----- */
+    .contact-hero {
+      padding: 3rem 0 2rem;
+      border-bottom: 1px solid #eae6e0;
+      margin-bottom: 2rem;
+    }
+    .contact-hero h1 {
+      font-size: 2.8rem;
+      max-width: 800px;
+      margin-bottom: 1rem;
+    }
+    .contact-hero p {
+      font-size: 1.15rem;
+      color: #4a4a4a;
+      max-width: 700px;
+    }
+
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 3.5rem;
+      padding: 2rem 0 4rem;
+    }
+
+    /* Form */
+    .contact-form-wrap {
+      background: #ffffff;
+      border: 1px solid #eae6e0;
+      border-radius: 4px;
+      padding: 2.5rem 2.5rem 2.5rem;
+    }
+    .contact-form-wrap h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+    .contact-form-wrap > p {
+      color: #4a4a4a;
+      margin-bottom: 2rem;
+      font-size: 0.95rem;
+    }
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: #2c2c2c;
+      margin-bottom: 0.4rem;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.85rem 1rem;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+      border: 1px solid #d6cec4;
+      background: #faf9f7;
+      border-radius: 4px;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #9b6b43;
+      background: #ffffff;
+    }
+    .form-group textarea {
+      resize: vertical;
+      min-height: 150px;
+    }
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+    }
+    .form-check {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      font-size: 0.85rem;
+      color: #4a4a4a;
+      margin-bottom: 1.5rem;
+    }
+    .form-check input {
+      margin-top: 0.25rem;
+      accent-color: #9b6b43;
+    }
+    .btn-submit {
+      display: inline-block;
+      padding: 0.9rem 2.5rem;
+      background: #1e1e1e;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+    .btn-submit:hover {
+      background: #9b6b43;
+    }
+
+    /* Contact info sidebar */
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+    .info-block {
+      border-bottom: 1px solid #eae6e0;
+      padding-bottom: 2rem;
+    }
+    .info-block:last-child {
+      border-bottom: none;
+    }
+    .info-block h3 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      font-weight: 600;
+      color: #9b6b43;
+      margin-bottom: 1rem;
+    }
+    .info-block p {
+      color: #3d3d3d;
+      font-size: 0.95rem;
+      margin-bottom: 0.5rem;
+    }
+    .info-block a {
+      border-bottom: 1px solid #d6cec4;
+      padding-bottom: 1px;
+    }
+    .info-block a:hover {
+      border-bottom-color: #9b6b43;
+    }
+    .info-block .address {
+      font-style: normal;
+      line-height: 1.7;
+      color: #3d3d3d;
+      font-size: 0.95rem;
+    }
+    .editorial-note {
+      background: #f4f1ec;
+      border-left: 4px solid #9b6b43;
+      padding: 1.5rem;
+      font-style: italic;
+      font-size: 0.95rem;
+      color: #3d3d3d;
+      border-radius: 0 4px 4px 0;
+      margin-top: 0.5rem;
+    }
+
+    /* ----- FOOTER ----- */
+    .site-footer {
+      background: #1e1e1e;
+      color: #e0e0e0;
+      padding: 3rem 0 2rem;
+      font-size: 0.9rem;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 2.5rem;
+    }
+    .footer-brand h4 {
+      font-family: 'Georgia', serif;
+      font-size: 1.4rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    .footer-brand p {
+      color: #aaa;
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+    }
+    .footer-links h5 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #9b6b43;
+      margin-bottom: 1rem;
+    }
+    .footer-links ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .footer-links a {
+      color: #ccc;
+      font-size: 0.85rem;
+    }
+    .footer-links a:hover {
+      color: #fff;
+    }
+    .footer-bottom {
+      border-top: 1px solid #333;
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      font-size: 0.75rem;
+      color: #888;
+    }
+    .footer-bottom a {
+      color: #aaa;
+      margin-left: 1.5rem;
+    }
+
+    /* ----- RESPONSIVE ----- */
+    @media (max-width: 1024px) {
+      .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2.2rem;
+      }
+      .contact-hero h1 {
+        font-size: 2.2rem;
+      }
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav ul {
+        gap: 1.2rem;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .contact-form-wrap {
+        padding: 1.8rem;
+      }
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 16px;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 0.8rem;
+      }
+      .btn-submit {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <div class="logo">
+        <a href="index.html">Endless Architectural Ideas</a>
+        <span class="logo-sub">Interior · Architecture · Material</span>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+            <li><a href="terms.html">Terms Of Privacy</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="cookies.html">Cookies Policy</a></li> 
+            <li><a href="disclaimer.html">Disclaimer</a></li>
+            <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="search-toggle" id="searchToggle" aria-label="Search articles">🔍</button>
+      </div>
+    </div>
+    <!-- Search bar (hidden on contact page by default, but kept for consistency) -->
+    <div class="search-bar" id="searchBar">
+      <input type="search" id="searchInput" placeholder="Search articles, topics, materials…" aria-label="Search articles">
+    </div>
+  </div>
+</header>
+
+<!-- ========== CONTACT HERO ========== -->
+<section class="contact-hero container">
+  <span class="category-tag">Editorial Office</span>
+  <h1>Let’s Talk Design, Materials, and Ideas</h1>
+  <p>Whether you’re pitching a story, requesting syndication, or simply want to share a project—we read every message. Our team typically responds within two working days.</p>
+</section>
+
+<!-- ========== CONTACT GRID ========== -->
+<div class="container contact-grid">
+  <!-- FORM -->
+  <div class="contact-form-wrap">
+    <h2>Send a Message</h2>
+    <p>All fields marked with * are required. We’ll never share your details.</p>
+    <form id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="name">Full Name *</label>
+          <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address *</label>
+          <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="subject">Subject *</label>
+        <select id="subject" name="subject" required>
+          <option value="" disabled selected>Select a topic…</option>
+          <option value="editorial">Editorial inquiry</option>
+          <option value="submission">Story submission / pitch</option>
+          <option value="syndication">Syndication request</option>
+          <option value="feedback">Feedback or correction</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" placeholder="Tell us about your project, idea, or question…" required></textarea>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" id="consent" name="consent" required>
+        <label for="consent">I agree that my message may be stored and processed according to the <a href="privacy.html" style="border-bottom:1px solid #d6cec4;">privacy policy</a>. *</label>
+      </div>
+
+      <button type="submit" class="btn-submit">Send Message</button>
+      <p id="formStatus" style="margin-top:1rem; font-size:0.9rem; color:#9b6b43; display:none;"></p>
+    </form>
+  </div>
+
+  <!-- CONTACT INFO SIDEBAR -->
+  <div class="contact-info">
+    <div class="info-block">
+      <h3>Editorial Office</h3>
+      <p class="address">
+        Endless Architectural Ideas<br>
+        42 Meridian Studios<br>
+        London, EC1V 9BX<br>
+        United Kingdom
+      </p>
+    </div>
+
+    <div class="info-block">
+      <h3>Email Us</h3>
+      <p><a href="mailto:editor@endlessarchitecturalideas.com">editor@endlessarchitecturalideas.com</a></p>
+      <p style="font-size:0.85rem; color:#6b6b6b; margin-top:0.25rem;">For general inquiries and pitches.</p>
+      <p style="margin-top:0.75rem;"><a href="mailto:syndication@endlessarchitecturalideas.com">syndication@endlessarchitecturalideas.com</a></p>
+      <p style="font-size:0.85rem; color:#6b6b6b;">For republishing and translation rights.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>Response Time</h3>
+      <p>We aim to reply to all messages within <strong>2 working days</strong>. If you don’t hear back, feel free to follow up—sometimes emails get buried.</p>
+    </div>
+
+    <div class="info-block">
+      <h3>Editorial Note</h3>
+      <div class="editorial-note">
+        “We do not accept sponsored posts or paid links. If you’re reaching out about advertising, please note that we are entirely reader-supported and do not sell ad space.”
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <h4>Endless Architectural Ideas</h4>
+        <p>Independent editorial for architects, designers, and curious minds. Since 2018.</p>
+      </div>
+      <div class="footer-links">
+        <h5>About</h5>
+        <ul>
+          <li><a href="about.html">Our Mission</a></li>
+          <li><a href="about.html">Editorial Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Topics</h5>
+        <ul>
+          <li><a href="categories.html">Interior Design</a></li>
+          <li><a href="categories.html">Architecture</a></li>
+          <li><a href="categories.html">Materials</a></li>
+          <li><a href="categories.html">Lighting</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Legal</h5>
+        <ul>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="#">Sitemap</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 Endless Architectural Ideas. All rights reserved.</span>
+      <div>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="cookies.html">Cookies</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== JAVASCRIPT ========== -->
+<script>
+  // ----- SEARCH TOGGLE (consistent with main page) -----
+  const searchToggle = document.getElementById('searchToggle');
+  const searchBar = document.getElementById('searchBar');
+  const searchInput = document.getElementById('searchInput');
+
+  searchToggle.addEventListener('click', () => {
+    searchBar.classList.toggle('active');
+    if (searchBar.classList.contains('active')) {
+      searchInput.focus();
+    }
+  });
+
+  // ----- CONTACT FORM SUBMISSION -----
+  const contactForm = document.getElementById('contactForm');
+  const formStatus = document.getElementById('formStatus');
+
+  contactForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    // Basic validation
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const subject = document.getElementById('subject').value;
+    const message = document.getElementById('message').value.trim();
+    const consent = document.getElementById('consent').checked;
+
+    if (!name || !email || !subject || !message || !consent) {
+      formStatus.style.display = 'block';
+      formStatus.style.color = '#b33';
+      formStatus.textContent = 'Please fill in all required fields and accept the privacy policy.';
+      return;
+    }
+
+    // Simulate successful submission (no actual sending in this demo)
+    formStatus.style.display = 'block';
+    formStatus.style.color = '#9b6b43';
+    formStatus.textContent = 'Thank you, ' + name + '. Your message has been received. We will reply within 2 working days.';
+
+    // Reset form
+    contactForm.reset();
+
+    // Hide status after 8 seconds
+    setTimeout(() => {
+      formStatus.style.display = 'none';
+    }, 8000);
+  });
+
+  // ----- ACTIVE NAV (contact page is already active, but keep links functional) -----
+  // The contact link already has class="active" in the HTML, so no extra JS needed.
+  // However, we prevent default on links that are just "#" to avoid jumping.
+  document.querySelectorAll('.main-nav a[href="#"]').forEach(link => {
+    link.addEventListener('click', (e) => e.preventDefault());
+  });
+</script>
+
+</body>
+</html>
